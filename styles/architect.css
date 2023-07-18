@@ -78,33 +78,6 @@ nav > ul > li > a{
     width: 100%;
 }
 
-/* responsive styles  */
-
-/* mobile devices */
-
-@media screen and (max-width:576px) {
-
-    header{
-        padding: 15px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    
-}
-
-/* medium devices */
-
-@media screen and (min-width:576px) and (max-width:992px) {
-
-    header{
-        padding: 15px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    
-}
 
 /* main styles */
 
@@ -148,4 +121,53 @@ main{
     font-weight: 400;
     margin-bottom: 32px;
 
+}
+
+
+
+
+
+
+/* responsive styles  */
+
+/* mobile devices */
+
+@media screen and (max-width:576px) {
+
+    header{
+        padding: 15px;
+    }
+    nav,.team-container{
+        flex-direction: column;
+    }
+
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-content{
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+    
+}
+
+/* medium devices */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    header{
+        padding: 15px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .team-container{
+        flex-direction: column-reverse;
+    }
+    .team-img-container img{
+        width: 92%;
+    }
+
+
+    
 }
