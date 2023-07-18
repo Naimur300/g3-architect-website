@@ -131,7 +131,7 @@ main{
     color:  #131313;
     font-size: 2.8125rem;
     font-weight: 700;
-    margin-top: 165px;
+    margin-top: 145px;
     margin-bottom: 24px;
 }
 .fact-description{
@@ -194,6 +194,59 @@ margin-bottom: 50px;
 }
 .sponsor-img-container img{
     width: 166.757px;
+}
+
+/* feature section styles  */
+
+.f-title{
+    color: #131313;
+font-size: 2.8125rem;
+font-weight: 700;
+margin-bottom: 24px;
+border-left: 5px solid #FF900E;
+padding-left: 21px;
+}
+.f-description{
+    color:  #727272;
+font-size: 1rem;
+font-weight: 400;
+
+}
+.f-gap{
+    margin-bottom: 30px;
+}
+.f-card{
+    
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 40px;
+    margin-bottom: 20px;
+}
+.f-card-title{
+    color:  #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+.features-container{
+    display: flex;
+    margin-top: 130px;
+    gap: 145px;
+}
+.ten-btn{
+    padding: 42px 45px;
+}
+.ten-plus{
+    color: #FFF;
+text-align: center;
+font-size: 4.0625rem;
+font-weight: 700;
+}
+.exp{
+    color: #FFF;
+    font-size: 1.5625rem;
+    font-weight: 500;
 }
 
 
