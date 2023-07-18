@@ -25,6 +25,7 @@ cursor: pointer;
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
+    margin-bottom: 85px;
 }
 nav{
     display: flex;
@@ -103,4 +104,48 @@ nav > ul > li > a{
         flex-direction: column;
     }
     
+}
+
+/* main styles */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-content{
+    max-width: 535px;
+   padding-left: 75px;
+   padding-right: 75px;
+}
+.q-list{
+    color:  #727272;
+    font-size: 2.8125rem;
+    font-weight: 500;
+}
+.of-our{
+    color: var #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+.team-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+
 }
