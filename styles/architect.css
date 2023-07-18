@@ -131,7 +131,7 @@ main{
     color:  #131313;
     font-size: 2.8125rem;
     font-weight: 700;
-    margin-top: 145px;
+    margin-top: 165px;
     margin-bottom: 24px;
 }
 .fact-description{
@@ -234,8 +234,16 @@ font-weight: 400;
     margin-top: 130px;
     gap: 145px;
 }
+.feature-img img{
+    margin-left: 90px;
+    height: 90%;
+   
+
+}
 .ten-btn{
     padding: 42px 45px;
+    position: relative;
+    bottom: 100px;
 }
 .ten-plus{
     color: #FFF;
@@ -247,6 +255,21 @@ font-weight: 700;
     color: #FFF;
     font-size: 1.5625rem;
     font-weight: 500;
+}
+.copy{
+    color:  #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 40px 400px;
+}
+.footer{
+    max-width:1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+background: #FFF4E7;
+margin-bottom: 215px;
+margin-top: 130px;
 }
 
 
@@ -264,7 +287,7 @@ font-weight: 700;
     header{
         padding: 15px;
     }
-    nav,.team-container,.fact-card-container,.sponsor-img-container{
+    nav,.team-container,.fact-card-container,.sponsor-img-container,.features-container{
         flex-direction: column;
     }
 
@@ -282,6 +305,17 @@ font-weight: 700;
         padding: 5px;
 
     }
+    .feature-content{
+        gap: 5px;
+    }
+    .feature-img img{
+        width: 90%;
+        margin-left: 0;
+    }
+    .ten-btn{
+        position: static;
+        max-width: 310px;
+    }
     
 }
 
@@ -292,7 +326,7 @@ font-weight: 700;
     header{
         padding: 15px;
     }
-    nav,.sponsor-img-container,.fact-card-container{
+    nav,.sponsor-img-container,.fact-card-container,.features-container{
         flex-direction: column;
     }
     .team-container{
@@ -306,6 +340,7 @@ font-weight: 700;
        padding-right: 20px;
        gap: 15px;
     }
+ 
 
 
     
