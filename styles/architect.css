@@ -316,6 +316,12 @@ margin-top: 130px;
         position: static;
         max-width: 310px;
     }
+    .copy{
+        padding: 25px;
+    }
+    .footer{
+        width: 90%;
+    }
     
 }
 
