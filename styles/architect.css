@@ -165,6 +165,38 @@ padding: 45px 57px;
     margin-top: 5px;
 }
 
+/* our sponsor section styles  */
+
+.sponsor-title{
+    color: #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 180px;
+}
+.sponsor-description{
+    color: var(--dark-03, #727272);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 50px;
+
+}
+
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+    gap: 40px;
+    align-items: center;
+  
+}
+.sponsor-img-container img{
+    width: 166.757px;
+}
+
+
 
 
 
@@ -179,16 +211,23 @@ padding: 45px 57px;
     header{
         padding: 15px;
     }
-    nav,.team-container{
+    nav,.team-container,.fact-card-container,.sponsor-img-container{
         flex-direction: column;
     }
 
     .team-img-container{
         grid-template-columns: repeat(1,1fr);
     }
-    .team-content{
+    .team-content,.fact-card-container{
        padding-left: 20px;
        padding-right: 20px;
+    }
+    .fact-card-container{
+        gap: 15px;
+    }
+    .fact-card-container .card{
+        padding: 5px;
+
     }
     
 }
@@ -200,7 +239,7 @@ padding: 45px 57px;
     header{
         padding: 15px;
     }
-    nav{
+    nav,.sponsor-img-container,.fact-card-container{
         flex-direction: column;
     }
     .team-container{
@@ -208,6 +247,11 @@ padding: 45px 57px;
     }
     .team-img-container img{
         width: 92%;
+    }
+    .fact-card-container{
+        padding-left: 20px;
+       padding-right: 20px;
+       gap: 15px;
     }
 
 
